@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require 'git/nebenan'
+# puts ARGV.unshift.inspect
+
+# Git::Nebenan::JiraCommand.new.run
+
+Git::Nebenan::CLI.start
